@@ -6,7 +6,7 @@ In this comprehensive case study, students will delve into the strategic and ope
 
 ESUPS has developed an innovative platform called STOCKHOLM (STOCK of Humanitarian Organizations Logistics Mapping), which serves as a global central repository for relief stock data. This platform visually maps warehouse and supply locations, and provides an in-depth analysis that helps improve response times and supply coverage across diverse humanitarian crises.
 
-## A Background on The Crisis that Prompted This Work: Disaster Relief & Mobilization Efforts
+## The Crisis that Prompted This Work: Disaster Relief & Mobilization Efforts
 
 In 2015, Kathmandu, Nepal was devastated by a 7.8 magnitude earthquake that claimed approximately 9,000 lives and injured thousands more. The full extent of the tragedy became evident hours later, as over 600,000 buildings lay in ruins, including the nation’s central disaster relief supplies. Despite being only the 31st most affected area, Kathmandu housed around 90% of Nepal’s disaster relief resources, which were buried under the debris.
 

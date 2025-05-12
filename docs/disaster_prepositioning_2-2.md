@@ -1,4 +1,4 @@
-# The Evolution of the STOCKHOLM Platform
+# The Evolution of the Platform
 
 also for ensuring that the right information reaches the right people at the right time. In this section, we will explore the ESUPS website, which serves as a central hub for sharing critical data and insights with a diverse audience, including NGOs, government agencies, and the public.
 
