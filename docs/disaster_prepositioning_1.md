@@ -1,22 +1,42 @@
 # Case Study Introduction
 
-## The Origin of ESUPS 
+This case study is intended to offer a unique blend of strategic thinking, technical know-how, and real-world impact. It prepares learners not only to understand the complexities of humanitarian logistics, but also to build and deploy data-driven solutions that have the potential to save lives and streamline global response efforts in the face of natural disasters.
 
-Enter ESUPS (Emergency Supply Pre-positioning Strategy). Founded in 2016, ESUPS emerged from the recognition that effective disaster response requires more than just post-disaster fundraising—it necessitates proactive, strategic planning and resource allocation. Initially launched as a collaborative effort among several NGOs, ESUPS aimed to tackle the very issues that hampered the Nepal earthquake response by creating a global database of pre-positioned supplies. This innovative initiative ensures that the nearest available resources are utilized first, enabling aid organizations to make informed decisions and address the most urgent needs swiftly.
+This case study is ideal for students and professionals interested in operations research, data science, and optimization for social good. It provides a practical, end-to-end learning experience that encompasses business strategy, mathematical modeling, data analytics, and the use of technology to solve some of the most pressing global challenges facing the world today.
 
-ESUPS started as a modest project, built on a simple spreadsheet that cataloged available disaster relief supplies across various regions. However, as the project gained traction and more organizations began contributing data, it became clear that a more sophisticated approach was needed. In response, ESUPS partnered with academic institutions like Penn State University and MIT, as well as industry leaders such as Gurobi, to develop advanced models for optimizing the allocation and movement of these supplies.
+## End-to-End Exploration of the Case Study:
 
-One of ESUPS’ early successes was the development of a simulation model that could identify the optimal locations for pre-positioning disaster relief supplies. This model proved instrumental in reducing response times and ensuring that critical resources reached disaster zones faster and more efficiently. Over time, ESUPS expanded its database to include hundreds of NGOs, each contributing data that made the system more robust and comprehensive. The impact of this collaborative effort was soon evident, as ESUPS’ models helped improve response times in several subsequent disaster scenarios.
+### 1.	Business Context and Story
 
-By 2020, ESUPS had grown into a globally recognized initiative, with its strategies being adopted by numerous international aid organizations. The project’s achievements include not only the development of cutting-edge optimization models, but also the successful implementation of these models in real-world disaster scenarios. ESUPS has been credited with significantly enhancing the effectiveness of disaster relief efforts, saving lives, and reducing the costs associated with disaster response logistics.
+This educational case study provides an in-depth exploration of the critical challenges ESUPS faces in managing the logistics of disaster relief at a global scale. The case begins by detailing the unique challenges and complexities of humanitarian logistics—such as unpredictable disaster locations, different relief needs, the need for centralized and standardized data, and the coordination of multiple stakeholders. 
 
-## ESUPS Today
+Students will understand how ESUPS aims to address these challenges through a data-driven approach and the development of an optimized pre-positioning strategy that enhances global preparedness.
 
-Today, ESUPS continues to lead the way in disaster preparedness, leveraging the latest technological advancements and fostering collaboration between NGOs, academia, and the private sector. Its success story is a testament to the power of data-driven decision-making and the importance of pre-positioning strategies in disaster relief. As ESUPS looks to the future, its focus remains on refining its models, expanding its global reach, and continuing to make a tangible difference in the lives of those affected by disasters.
+
+### 2.	Optimization Model and Data Analytics
+
+A key focus of this case study is the mathematical optimization model embedded within the STOCKHOLM platform. The study introduces students to the foundational principles of optimization, demonstrating how data analytics can be leveraged to make critical decisions about how much relief stock should be pre-positioned, and where. 
+
+Students will be given a subset of anonymized, real-world data that mimics the inputs used by ESUPS to run their models, allowing them to explore hands-on the complexities involved in developing and implementing optimization models that drive impactful outcomes in humanitarian contexts.
+
+
+### 3.	Hands-on Learning with a Jupyter Notebook
+
+To facilitate practical understanding, the case study includes a Jupyter Notebook, which guides students through the process of building, refining, and implementing an optimization model from scratch. This notebook serves as a step-by-step tutorial, from defining the problem and understanding the constraints to coding the solution and transitioning the model to a production environment. It also includes exploratory data analysis, model validation, and interpretation of the results, offering a holistic view of how data science and optimization techniques converge to solve real-world challenges.
+
+### 4.	Extending the Problem with Predictive Analytics
+
+Beyond the current scope, the case study provides avenues for students to extend their exploration using predictive analytics techniques. For example, students could be tasked with predicting future demand for specific relief items based on historical data, seasonal patterns, or the nature of past disasters. This section encourages critical thinking about how predictive models could be integrated into STOCKHOLM to improve the forecasting and allocation of resources, further optimizing response strategies and minimizing waste.
+
+### 5.	Impact and Implementation Summary
+
+The final section of the case study highlights the tangible impact of STOCKHOLM’s optimization capabilities on global humanitarian efforts. It outlines the real-world benefits observed, from reduced response times and lowered costs, to improved geographical coverage of relief supplies. 
+
+Additionally, it provides a roadmap for implementation, detailing the steps required to scale the optimization model, handle larger datasets, and integrate advanced analytics tools. Students will gain insights into the practical challenges of transitioning from a prototype model to a fully operational tool used by humanitarian organizations worldwide.
 
 ## Diving Into the Case Study & Jupyter Notebook
 
-In this notebook, we will take you through the end-to-end process of how ESUPS transformed from a simple idea into a global initiative that is reshaping disaster response logistics. We will delve into the crucial role that optimization plays in this transformation, demonstrating how ESUPS utilizes advanced algorithms to optimize the allocation and movement of disaster relief supplies.
+In this resource, we will take you through the end-to-end process of how ESUPS transformed from a simple idea into a global initiative that is reshaping disaster response logistics. We will delve into the crucial role that optimization plays in this transformation, demonstrating how ESUPS utilizes advanced algorithms to optimize the allocation and movement of disaster relief supplies.
 
 Starting with the initial challenges faced by disaster relief organizations and the inefficiencies of traditional response methods, we will explore how ESUPS identified these gaps and developed a pioneering approach to pre-positioning resources.
 
@@ -53,12 +73,9 @@ Sparse data is a notorious problem in machine learning. With only 64 data points
 
 Now, there are several ways to deal with sparse data in ML, and you might have your own technique you want to try—and you absolutely should! If you find interesting results, we’d love to hear about them. But for now, let’s consider one of the most popular techniques: data interpolation.
 
-
 **Data interpolation** attempts to create a probability distribution that closely mirrors real-world events, allowing us to sample synthetic data for training. Ideally, this synthetic data is representative enough that a neural network can learn from it. However, generating such a distribution is often as challenging as the original problem—especially when the relationships are highly complex or unpredictable. For instance, allocating goods based on past data might work, but predicting the location, type, and impact of future disasters introduces an additional layer of complexity.
 
 Likely the first method that comes to mind when choosing an ML approach is neural networks, and for good reason. Neural networks are incredibly powerful tools that have transformed the modern world— they’re able to approximate any function to arbitrary precision, provided they are large enough and have enough data. However, in this case study, we’ll be drilling down on disasters in Madagascar, for which we only have reliable data on 64 events. To make matters even more complicated, each disaster is characterized by limited information—mainly location, type, and impact.
-
-
 
 ## Optimization: A Structured Approach to the Solution Space
 
@@ -96,7 +113,6 @@ In transportation problems like ours, with whole-number supplies and demands, we
 Geometrically, because the constraints are defined by integer values, the feasible region is a polyhedron whose vertices correspond to integer solutions. The simplex method, by moving along the edges of this integer-defined polyhedron, often arrives at integer solutions naturally. The constraints dictate that the total shipped from each supplier equals their supply and the total received by each consumer equals their demand, both of which are integers. This setup leads to shipment amounts that are integers, because only whole units can satisfy both the supply and demand without leaving any fractions unaccounted for.
 
 This approach offers a clear advantage: Instead of searching through a massive number of possible solutions within the feasible region—as might be necessary with other methods—the simplex method only needs to evaluate a finite number of vertices, one of which will be the optimal solution. In transportation problems with integer constraints, it often provides optimal integer solutions without the need for additional techniques, like the [branch and bound method](https://en.wikipedia.org/wiki/Branch_and_bound). This makes the simplex method both effective and practical for scenarios where exact quantities are essential.
-
 
 ### An Advancing Field
 
