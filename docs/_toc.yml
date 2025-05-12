@@ -1,0 +1,26 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+- caption: Background Material
+  chapters:
+    - file: disaster_prepositioning_0
+    - file: disaster_prepositioning_1
+- caption: A Look at the Data and STOCKHOLM
+  chapters:
+    - file: disaster_prepositioning_2-1
+    - file: disaster_prepositioning_2-2
+- caption: Building Optimization Models
+  chapters:
+    - file: disaster_prepositioning_3-1
+      sections:
+        - file: disaster_prepositioning_3_A
+        - file: disaster_prepositioning_3_B
+    - file: disaster_prepositioning_3-2
+    - file: disaster_prepositioning_5
+- caption: Extras
+  chapters:
+    - file: disaster_prepositioning_4
+    - file: disaster_prepositioning_6
