@@ -17,10 +17,11 @@ parts:
     - file: stockholm-evolution
 - caption: Building Optimization Models
   chapters:
-    - file: disaster_prepositioning_3-1
+    - file: prerequisites
       sections:
         - file: disaster_prepositioning_3_A
         - file: disaster_prepositioning_3_B
+    - file: optimization-model-basic
     - file: disaster_prepositioning_3-2
     - file: disaster_prepositioning_5
 - caption: Extras
