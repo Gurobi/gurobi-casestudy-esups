@@ -19,8 +19,8 @@ parts:
   chapters:
     - file: prerequisites
       sections:
-        - file: disaster_prepositioning_3_A
-        - file: disaster_prepositioning_3_B
+        - file: prereq-optimization
+        - file: prereq-ev
     - file: optimization-model-basic
     - file: disaster_prepositioning_3-2
     - file: disaster_prepositioning_5
