@@ -22,9 +22,9 @@ parts:
         - file: prereq-optimization
         - file: prereq-ev
     - file: optimization-model-basic
-    - file: disaster_prepositioning_3-2
-    - file: disaster_prepositioning_5
+    - file: optimization-model-full
+    - file: conclusions
 - caption: Extras
   chapters:
-    - file: disaster_prepositioning_4
-    - file: disaster_prepositioning_6
+    - file: production-code
+    - file: math-addendum

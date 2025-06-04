@@ -11,4 +11,5 @@ In this comprehensive case study, learners students will delve into the strategi
 ```{tableofcontents}
 ```
 
-Acknowledgements: Ben Rapkin, Florent Chane, Jason Acimovic, Lindsay Montanari, Jerry Yurchisin, Mario Ruthmair, Ronald van der Velden, Andrew Antenucci, Ben Kennerly
+## Acknowledgements 
+Ben Rapkin, Florent Chane, Jason Acimovic, Lindsay Montanari, Jerry Yurchisin, Mario Ruthmair, Ronald van der Velden, Andrew Antenucci, Ben Kennerly

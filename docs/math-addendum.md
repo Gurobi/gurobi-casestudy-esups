@@ -1,4 +1,4 @@
-# Math Addendum - Other Topics in Optimization
+# Other Topics in Optimization
 
 ## What Happened to the Second Derivative?
 

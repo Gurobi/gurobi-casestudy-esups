@@ -1,4 +1,4 @@
-# Wrapping It Up
+# Wrapping Up the Case Study
 
 As we conclude this journey through the evolution of ESUPS and the STOCKHOLM platform, it’s inspiring to reflect on how a collaborative spirit and a shared vision can drive meaningful change. ESUPS began as a modest initiative—a simple spreadsheet aimed at cataloging disaster relief supplies to prevent the inefficiencies witnessed during the Nepal earthquake response. However, it was through strategic partnerships with academia, non-profit organizations, and industry leaders that ESUPS transformed into a global force reshaping disaster preparedness and response.
 
