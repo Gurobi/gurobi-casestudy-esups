@@ -1,8 +1,8 @@
-# The STOCKHOLM Platform
+# Motivation for the STOCKHOLM Platform
 
 In this comprehensive case study, students will delve into the strategic and operational efforts of the Emergency Supply Pre-positioning Strategy (ESUPS), a collaborative working group consisting of Member States, NGOs, academics, UN agencies, and regional organizations, all operating within Welthungerhilfe. ESUPS plays a critical role in logistics preparedness and pre-positioning at both strategic and operational levels, aiming to optimize the pre-positioning of disaster relief items, minimize relief response times, and enhance the mapping and analysis of relief stock across global humanitarian organizations.
 
-## Overview of ESUPS and STOCKHOLM:
+## Overview of ESUPS and STOCKHOLM
 
 ESUPS has developed an innovative platform called STOCKHOLM (STOCK of Humanitarian Organizations Logistics Mapping), which serves as a global central repository for relief stock data. This platform visually maps warehouse and supply locations, and provides an in-depth analysis that helps improve response times and supply coverage across diverse humanitarian crises.
 
