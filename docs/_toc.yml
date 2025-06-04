@@ -7,7 +7,10 @@ parts:
 - caption: Background Material
   chapters:
     - file: esups-motivation
-    - file: disaster_prepositioning_1
+    - file: case-study-intro
+      sections:
+        - file: ds-perspective
+        - file: optimization-approach
 - caption: A Look at the Data and STOCKHOLM
   chapters:
     - file: disaster_prepositioning_2-1
