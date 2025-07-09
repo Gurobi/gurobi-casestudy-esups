@@ -32,6 +32,8 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+  analytics:
+    google_analytics_id: G-R9X4NNSDJZ
 
 launch_buttons:
   notebook_interface: "jupyterlab"
